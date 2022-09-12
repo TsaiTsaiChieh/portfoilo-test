@@ -38,25 +38,37 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='me-auto'>
-            <Nav.Link href='#home'
+            <Nav.Link
+              href='#home'
               className={
                 activeLink === 'home' ? 'active navbar-link' : 'navbar-link'
-              } onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-            <Nav.Link href='#skills' className={
-              activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'
-            } onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-            <Nav.Link href='#projects' className={
-              activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'
-            } onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              }
+              onClick={() => onUpdateActiveLink('home')}
+            >
+              Home
+            </Nav.Link>
+            <Nav.Link
+              href='#skills'
+              className={
+                activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'
+              }
+              onClick={() => onUpdateActiveLink('skills')}
+            >
+              Skills
+            </Nav.Link>
+            <Nav.Link
+              href='#projects'
+              className={
+                activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'
+              }
+              onClick={() => onUpdateActiveLink('projects')}
+            >
+              Projects
+            </Nav.Link>
           </Nav>
           <span className='navbar-text'>
             <div className='social-icon'>
-              <a
-                href='/'
-                onClick={() => {
-                  setActiveLink('home')
-                }}
-              >
+              <a href='/'>
                 <img src={navIcon1} alt='' />
               </a>
               <a href='/'>
