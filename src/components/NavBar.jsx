@@ -11,6 +11,7 @@ const NavBar = () => {
 
   useEffect(() => {
     const onScroll = () => {
+      // console.log(window.screenY)
       if (window.screenY > 50) {
         console.log('超過50')
         console.log(scrolled)
@@ -30,7 +31,7 @@ const NavBar = () => {
     setActiveLink(link)
   }
   return (
-    <Navbar expand='lg' className={scrolled ? 'scrolled' : ''}>
+    <Navbar expand='lg' className={scrolled ? '' : 'scrolled'}>
       <Container>
         <Navbar.Brand href='#home'>
           <img src={logo} alt='logo' />
