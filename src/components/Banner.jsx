@@ -2,6 +2,7 @@ import {useEffect, useState} from 'react'
 import {Col, Container, Row} from 'react-bootstrap'
 import {ArrowRightCircle} from 'react-bootstrap-icons'
 import headerImg from '../assets/img/header-img.svg'
+import TrackVisibility from 'react-on-screen'
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0)
@@ -41,32 +42,52 @@ const Banner = () => {
   }
 
   return (
-    <section id='home' className='banner'>
+    <section className='banner' id='home'>
       <Container>
-        <Row className='align-items-center'>
+        <Row className='aligh-items-center'>
           <Col xs={12} md={6} xl={7}>
-            <span className='tagline'>Welcome to my Portfolio</span>
-            <h1>
-              {`Hi I'm webdecoded`}
-              <span className='wrap'>{text}</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aliquid, aspernatur veritatis. Eos amet iure quibusdam, iste
-                architecto nemo voluptatem itaque ab dolor dolorum nobis?
-                Praesentium neque nam facilis ducimus voluptatum.
-              </p>
-              <button
-                onClick={() => {
-                  console.log('connect')
-                }}
-              >
-                Let&apos;s connect
-                <ArrowRightCircle size={25} />
-              </button>
-            </h1>
+            <TrackVisibility>
+              {({isVisible}) => (
+                <div
+                  className={
+                    isVisible ? 'animate__animated animate__fadeIn' : ''
+                  }
+                >
+                  <span className='tagline'>Welcome to my Portfolio</span>
+                  <h1>
+                    {`Hi! I'm Judy`}{' '}
+                    <span
+                      className='txt-rotate'
+                    >
+                      <span className='wrap'>{text}</span>
+                    </span>
+                  </h1>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book.
+                  </p>
+                  <button onClick={() => console.log('connect')}>
+                    Let’s Connect <ArrowRightCircle size={25} />
+                  </button>
+                </div>
+              )}
+            </TrackVisibility>
           </Col>
-          <Col xs={2} md={6} xl={5}>
-            <img src={headerImg} alt='Header Img' />
+          <Col xs={12} md={6} xl={5}>
+            <TrackVisibility>
+              {({isVisible}) => (
+                <div
+                  className={
+                    isVisible ? 'animate__animated animate__zoomIn' : ''
+                  }
+                >
+                  <img src={headerImg} alt='Header Img' />
+                </div>
+              )}
+            </TrackVisibility>
           </Col>
         </Row>
       </Container>
