@@ -11,27 +11,17 @@ const NavBar = () => {
 
   useEffect(() => {
     const onScroll = () => {
-      // console.log(window.screenY)
-      if (window.screenY > 50) {
-        console.log('超過50')
-        console.log(scrolled)
-        return setScrolled(true)
-      }
-      if (window.screenY <= 50) {
-        console.log('低過50')
-        return setScrolled(false)
-      }
+      window.scrollY > 50 ? setScrolled(true) : setScrolled(false)
     }
     window.addEventListener('scroll', onScroll)
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
   const onUpdateActiveLink = (link) => {
-    console.log(link)
     setActiveLink(link)
   }
   return (
-    <Navbar expand='lg' className={scrolled ? '' : 'scrolled'}>
+    <Navbar expand='lg' className={scrolled ? 'scrolled' : ''}>
       <Container>
         <Navbar.Brand href='#home'>
           <img src={logo} alt='logo' />
