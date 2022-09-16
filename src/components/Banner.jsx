@@ -1,8 +1,12 @@
+/* eslint-disable no-unused-vars */
 import {useEffect, useState} from 'react'
 import {Col, Container, Row} from 'react-bootstrap'
 import {ArrowRightCircle} from 'react-bootstrap-icons'
 import headerImg from '../assets/img/header-img.svg'
 import TrackVisibility from 'react-on-screen'
+import Lottie from 'lottie-react'
+import loadingAnimation
+from '../assets/img/68794-cute-astronaut-operating-laptop.json'
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0)
@@ -11,6 +15,7 @@ const Banner = () => {
   const [text, setText] = useState('')
   const [delta, setDelta] = useState(300 - Math.random() * 100)
   const period = 2000
+
 
   useEffect(() => {
     const ticker = setInterval(() => {
@@ -84,7 +89,8 @@ const Banner = () => {
                     isVisible ? 'animate__animated animate__zoomIn' : ''
                   }
                 >
-                  <img src={headerImg} alt='Header Img' />
+                 <Lottie animationData={loadingAnimation} loop={true} />
+                  {/* <img src={headerImg} alt='Header Img' /> */}
                 </div>
               )}
             </TrackVisibility>

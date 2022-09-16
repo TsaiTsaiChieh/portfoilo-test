@@ -1,7 +1,7 @@
 import './App.css'
 import 'animate.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {NavBar, Banner, Skills, Projects, Contact, Footer} from './components'
+import {NavBar, Banner, Skills, Projects, Footer} from './components'
 
 const App = () => {
   return (
@@ -9,8 +9,7 @@ const App = () => {
       <NavBar />
       <Banner />
       <Skills />
-      <Projects />
-      <Contact />
+      <Projects />s
       <Footer />
     </div>
   )
