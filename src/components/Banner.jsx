@@ -3,7 +3,7 @@
 import {useEffect, useState} from 'react'
 import {Col, Container, Row} from 'react-bootstrap'
 import {ArrowRightCircle} from 'react-bootstrap-icons'
-import headerImg from '../assets/img/header-img3.png'
+import headerImg from '../assets/img/header-img4.png'
 import TrackVisibility from 'react-on-screen'
 import Lottie from 'lottie-react'
 import loadingAnimation
