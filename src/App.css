@@ -98,7 +98,10 @@ nav.navbar a.navbar-brand {
     width: 9%;
 }
 nav.navbar a.navbar-brand img {
-  width: 50px;
+  width: 150px;
+}
+nav.navbar .navbar-nav {
+  margin-left: 50px;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -249,8 +252,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background-image: linear-gradient(to right, #264757, #26596a, #246c7b, #247f8a, #289396, #3ba09e, #4daca5, #5eb9ad, #73c1b6, #87c9be, #9ad0c7, #acd8d0);
-  /* background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); */
+  background-image: linear-gradient(to left, #224456, #215769, #1d6a7b, #1b7e8a, #209397, #36a09e, #4aada6, #5cbaad, #72c2b5, #86cabe, #9ad2c7, #acdad0);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -396,7 +398,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background-image: linear-gradient(to left, #34549a, #1e609f, #026aa1, #0074a1, #147d9f, #1884a0, #218ba0, #2c91a0, #2898a2, #279fa2, #2ca5a1, #34ac9f);
     top: 0;
     left: 0;
     z-index: -1;
@@ -428,7 +430,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  /* background: red; */
+  background-image: linear-gradient(to bottom, #acdad0, #97cec7, #81c2c0, #6ab6b9, #52aab3, #46a7b0, #38a3ae, #27a0ab, #28a4aa, #2ba8a8, #31aba5, #38afa2);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -475,7 +478,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Contact Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background-image: linear-gradient(to left, #224456, #255367, #276278, #287288, #298398, #278d9f, #2696a5, #27a0ab, #28a4aa, #2ba8a8, #31aba5, #38afa2);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -577,7 +580,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .new-email-bx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(to right top, #224456, #205d70, #1b7886, #209397, #38afa2);
   border-radius: 20px;
   position: absolute;
   z-index: -1;
@@ -606,7 +609,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 15px;
 }
 .new-email-bx button {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(to left, #224456, #215769, #1d6a7b, #1b7e8a, #209397, #36a09e, #4aada6, #5cbaad, #72c2b5, #86cabe, #9ad2c7, #acdad0);
   padding: 20px 65px;
   color: #fff;
   font-weight: 500;
