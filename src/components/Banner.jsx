@@ -1,12 +1,13 @@
+/* eslint-disable max-len */
 /* eslint-disable no-unused-vars */
 import {useEffect, useState} from 'react'
 import {Col, Container, Row} from 'react-bootstrap'
 import {ArrowRightCircle} from 'react-bootstrap-icons'
-import headerImg from '../assets/img/header-img.svg'
+import headerImg from '../assets/img/header-img3.png'
 import TrackVisibility from 'react-on-screen'
 import Lottie from 'lottie-react'
 import loadingAnimation
-from '../assets/img/68794-cute-astronaut-operating-laptop.json'
+  from '../assets/img/68794-cute-astronaut-operating-laptop.json'
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0)
@@ -89,8 +90,8 @@ const Banner = () => {
                     isVisible ? 'animate__animated animate__zoomIn' : ''
                   }
                 >
-                 <Lottie animationData={loadingAnimation} loop={true} />
-                  {/* <img src={headerImg} alt='Header Img' /> */}
+                  {/* <Lottie animationData={loadingAnimation} loop={true} /> */}
+                  <img src={headerImg} alt='Header Img' />
                 </div>
               )}
             </TrackVisibility>
