@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfoilo-test/static/css/main.8355f2dd.css",
-    "main.js": "/portfoilo-test/static/js/main.9df6da5f.js",
+    "main.css": "/portfoilo-test/static/css/main.0a33ecd8.css",
+    "main.js": "/portfoilo-test/static/js/main.325e9e1e.js",
     "static/media/header-img4.png": "/portfoilo-test/static/media/header-img4.cfd403188d6817bf4ec6.png",
     "static/media/color-sharp1.png": "/portfoilo-test/static/media/color-sharp1.5c67372092a592412081.png",
     "static/media/color-sharp2.png": "/portfoilo-test/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -23,11 +23,11 @@
     "index.html": "/portfoilo-test/index.html",
     "static/media/nav-icon1.svg": "/portfoilo-test/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/portfoilo-test/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.8355f2dd.css.map": "/portfoilo-test/static/css/main.8355f2dd.css.map",
-    "main.9df6da5f.js.map": "/portfoilo-test/static/js/main.9df6da5f.js.map"
+    "main.0a33ecd8.css.map": "/portfoilo-test/static/css/main.0a33ecd8.css.map",
+    "main.325e9e1e.js.map": "/portfoilo-test/static/js/main.325e9e1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8355f2dd.css",
-    "static/js/main.9df6da5f.js"
+    "static/css/main.0a33ecd8.css",
+    "static/js/main.325e9e1e.js"
   ]
 }
