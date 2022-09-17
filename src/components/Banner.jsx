@@ -7,7 +7,7 @@ import headerImg from '../assets/img/header-img4.png'
 import TrackVisibility from 'react-on-screen'
 import Lottie from 'lottie-react'
 import loadingAnimation
-  from '../assets/img/68794-cute-astronaut-operating-laptop.json'
+  from '../assets/img/lf30_editor_sq5slofx.json'
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0)
@@ -90,8 +90,10 @@ const Banner = () => {
                     isVisible ? 'animate__animated animate__zoomIn' : ''
                   }
                 >
-                  {/* <Lottie animationData={loadingAnimation} loop={true} /> */}
-                  <img src={headerImg} alt='Header Img' />
+                  <Lottie
+                    className='lottie'
+                    animationData={loadingAnimation} loop={true} />
+                  {/* <img src={headerImg} alt='Header Img' /> */}
                 </div>
               )}
             </TrackVisibility>
