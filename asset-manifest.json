@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/portfoilo-test/static/css/main.0a33ecd8.css",
-    "main.js": "/portfoilo-test/static/js/main.325e9e1e.js",
-    "static/media/header-img4.png": "/portfoilo-test/static/media/header-img4.cfd403188d6817bf4ec6.png",
+    "main.css": "/portfoilo-test/static/css/main.3fb45439.css",
+    "main.js": "/portfoilo-test/static/js/main.baab0979.js",
     "static/media/color-sharp1.png": "/portfoilo-test/static/media/color-sharp1.5c67372092a592412081.png",
     "static/media/color-sharp2.png": "/portfoilo-test/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/banner-bg-new3.png": "/portfoilo-test/static/media/banner-bg-new3.5a511ae8056b69c88c64.png",
@@ -12,6 +11,7 @@
     "static/media/CentraNo2-Book.ttf": "/portfoilo-test/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/project-img1.png": "/portfoilo-test/static/media/project-img1.d593db3f12901bc685c2.png",
     "static/media/project-img2.png": "/portfoilo-test/static/media/project-img2.2e52097c417f9f1134b0.png",
+    "static/media/planet.svg": "/portfoilo-test/static/media/planet.38468a4add3fcd92cf23d78eff3271b5.svg",
     "static/media/meter2.png": "/portfoilo-test/static/media/meter2.69e6caa2beaacaa43d52.png",
     "static/media/project-img3.png": "/portfoilo-test/static/media/project-img3.675b30d2f975a1bc1d09.png",
     "static/media/contact-img.svg": "/portfoilo-test/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
@@ -23,11 +23,11 @@
     "index.html": "/portfoilo-test/index.html",
     "static/media/nav-icon1.svg": "/portfoilo-test/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/portfoilo-test/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.0a33ecd8.css.map": "/portfoilo-test/static/css/main.0a33ecd8.css.map",
-    "main.325e9e1e.js.map": "/portfoilo-test/static/js/main.325e9e1e.js.map"
+    "main.3fb45439.css.map": "/portfoilo-test/static/css/main.3fb45439.css.map",
+    "main.baab0979.js.map": "/portfoilo-test/static/js/main.baab0979.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a33ecd8.css",
-    "static/js/main.325e9e1e.js"
+    "static/css/main.3fb45439.css",
+    "static/js/main.baab0979.js"
   ]
 }
