@@ -3,11 +3,11 @@
 import {useEffect, useState} from 'react'
 import {Col, Container, Row} from 'react-bootstrap'
 import {ArrowRightCircle} from 'react-bootstrap-icons'
-import headerImg from '../assets/img/header-img4.png'
+import headerImg from '../assets/img/planet.svg'
 import TrackVisibility from 'react-on-screen'
 import Lottie from 'lottie-react'
 import loadingAnimation
-  from '../assets/img/lf30_editor_sq5slofx.json'
+  from '../assets/img/68794-cute-astronaut-operating-laptop2.json'
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0)
@@ -87,14 +87,16 @@ const Banner = () => {
               {({isVisible}) => (
                 <div
                   className={
-                    isVisible ? 'animate__animated animate__zoomIn' : ''
+                    isVisible ? 'animate__animated animate__zoomIn wrap' : 'wrap'
                   }
                 >
+                  <img src={headerImg} alt='Header Img' className='planet' />
                   <Lottie
                     className='lottie'
-                    animationData={loadingAnimation} loop={true} />
-                  {/* <img src={headerImg} alt='Header Img' /> */}
+                    animationData={loadingAnimation} loop={true}/>
                 </div>
+
+
               )}
             </TrackVisibility>
           </Col>

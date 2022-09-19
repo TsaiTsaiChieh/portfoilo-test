@@ -292,7 +292,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img, .banner .lottie {
-  animation: updown 3s linear infinite;
+  animation: updown 3s linear infinite;/* z-index: 100; */
+}
+.banner .wrap  {
+  position: relative;
+}
+.banner .planet  {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 @keyframes updown {
     0% {
